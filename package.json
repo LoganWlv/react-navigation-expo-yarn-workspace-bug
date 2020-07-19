@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "postinstall": "cd ./packages/react-native-expo-app/ && expo-yarn-workspaces postinstall"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
